@@ -34,17 +34,5 @@ app.listen(PORT, () => {
     console.log(`Servidor rodando em: http://localhost:${PORT}`);
 });
 
-{
-    "name": "backend",
-    "version": "1.0.0",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-        "express": "^4.x",
-        "cors": "^2.x",
-        "body-parser": "^1.x"
-    }
-  }
+
   
