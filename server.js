@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const pedidos = {
     "123456789": { status: "Entregue", detalhes: "Pedido entregue em 01/12/2024." },
     "987654321": { status: "Em transporte", detalhes: "Pedido a caminho do destino." },
-    "111222333": { status: "Aguardando envio", detalhes: "Pedido ainda não foi despachado." }
+    "111222333": { status: "Aguardando envio", detalhes: "Pedido ainda não foi despachado." },
     "PPCPMTB5FPHFCK": { status: "Aguardando envio", detalhes: "Pedido ainda não foi despachado." }
 };
 
